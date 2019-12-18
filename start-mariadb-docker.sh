@@ -1,0 +1,1 @@
+docker run --name local-mariadb -v /home/maximilian/git/web-app-ptotype-mariadb/data-store/:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=Welcome1! -p 3306:3306 mariadb:10.4.11
